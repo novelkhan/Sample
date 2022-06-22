@@ -1,0 +1,218 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    /* font-family: 'Handlee', cursive; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Roboto', sans-serif;
+}
+
+.sectionTitle h3{
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+.h3Style{
+    border-bottom: 5px solid #f7bb73;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+/* Header Starts */
+header{
+    background-image: url("../img/bannerPhoto.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    padding: 1% 10%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbarIcon{
+    color: white;
+}
+
+.navbarIcon:hover{
+    color: #FF0000;
+}
+
+.navbar-brand img{
+    width: 60px;
+    height: auto;
+}
+
+.nav-link{
+    color: white;
+    margin: 10px;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+.nav-link:hover{
+    background-color: #FF0000;
+    color: white;
+    transform: scale(1.1);
+}
+
+.bannerContainer{
+    height: 100vh;
+}
+
+
+.bannerContainer h1{
+    font-size: 3.5rem;
+    background-color: rgba(7, 101, 189, 0.8);
+    padding: 10px 20px;
+    font-family: 'Handlee', cursive;
+    border-radius: 5px;
+}
+/* Header Ends */
+
+
+/* Features Starts */
+#features{
+    padding: 5% 10%;
+    background: #E8DED2;
+}
+
+.features-col{
+    border: 1px solid #FF02C0;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0px;
+    transition: 0.4s;
+}
+
+.features-col:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+
+.iconStyle{
+    background: #BB0AAC;
+    color: white;
+    padding: 15px;
+    margin: 5px 0px;
+}
+/* Features Ends */
+
+
+/* About Me Section Starts Here */
+#aboutMe{
+    padding: 4% 10%;
+    background: #E8DED2;
+}
+
+#aboutMe p{
+    font-size: 0.9rem;
+    margin-bottom: 0px;
+    font-weight: light;
+}
+
+#aboutMe a{
+    font-size: 0.9rem;
+    font-weight: lighter;
+    color: black;
+    text-decoration: underline;
+}
+
+
+.achieveDescription span{
+    font-weight: 700 !important;
+}
+
+.star i{
+    width: 20px;
+    color: aqua;
+}
+/* About Me Section Ends Here */
+
+
+/* Tutorial Section Starts Here */
+#tutorial{
+    padding: 4% 10%;
+    background: #A3D2CA;
+}
+
+.card{
+    transition: 0.4s;
+    border: 1px solid #FF02C0;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 6px 5px black;
+}
+/* Tutorial Section Ends Here */
+
+
+/* Feedback Section Starts Here */
+#feedback{
+    padding: 5%;
+    background: #5EAAA8;
+}
+
+.carousel-item{
+    text-align: center;
+    padding: 7% 15%;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+.feedbackImage{
+    width: 120px;
+    height: auto;
+    margin-bottom: 5px;
+}
+/* Feedback Section Ends Here */
+
+
+/* Contact Me Section Starts Here */
+#contactMe{
+    padding: 2% 10%;
+    background: #348f8c;
+}
+
+.form-group label{
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+/* Contact Me Section Ends Here */
+
+
+
+/* Footer Section Starts Here */
+footer{
+    padding: 1% 10%;
+    background: #056676;
+}
+
+footer a{
+    color: white;
+    margin: 0px 10px;
+}
+
+footer a:hover{
+    color: black;
+}
+/* Footer Section Ends Here */
+
+
+
+@media (max-width: 768px){
+    .nav-link{
+        background: rgba(0, 0, 0, 0.7);
+    }
+
+    .bannerContainer h1{
+        font-size: 2.5rem;
+    }
+}
